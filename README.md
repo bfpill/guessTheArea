@@ -1,15 +1,9 @@
 # guessTheArea
 Math game - APCSA final project
 
-Communications with Client Log
-
-June 8 2021 Project Completed
-May 28 2021 Email thread about project
-May 10 2021 --- Interview with Alison about more potential project ideas, settled on making an interactive program to help student understand area better. 
----
-darkness
----
-Feb 16 2021 --- First email with Alison, discussed potential project ideas
+Contributors - Max Adam
+Teacher - Randy Brown 
+School - U32 Highschool, Vermont
 
 
 OBJECT ORIENTATION STRUCTURE 
@@ -65,6 +59,15 @@ When handleGuess() is called, the users guess is passed through both the game cl
 If the rounds have not all been played out, the game will advance to the next round via game.nextRound(). The timer is restarted aswell.
 
 
+Communications with Client Log
+
+June 8 2021 Project Completed
+
+May 28 2021 Email thread about project
+
+May 10 2021 --- Interview with Alison about more potential project ideas, settled on making an interactive program to help student understand area better. 
+
+Feb 16 2021 --- First email with Alison, discussed potential project ideas
 
 BIBLIOGRAPHY:
 
