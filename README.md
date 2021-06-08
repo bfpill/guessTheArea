@@ -38,17 +38,25 @@ The GameController class implements ActionListener, and its main purpose is to h
 The events are as such:
 
 PRACTICE - triggered by a button on the homescreen, tells the controller to run handleStartPractice();
+
 TIMED -  triggered by a button on the homescreen, tells the controller to run handleStartTimed();
+
 HOMESCREEN - triggered by a button on scorescreen and practicemode, tells the controller to run handleHomeScreen();
+
 GUESS - triggered when the user hits enter on the guess field, and runs handleGuess();
+
 TIMER - triggered when our timer goes off (every second), tells timedWindow to update the timer Label
 
 When handleStartPractice() or handleStartTimed() are called, they both: 
 
 Close the startWindow
+
 Set local boolean flags appropriatly
+
 Update the local game object to be a new game object
+
 Make a new gameWindow - (practiceWindow or timedWindow)
+
 Reset the local gameWindow variable to the respective type
 
 TimedWindow has one more step, where it sets timedWindow.seconds to a passed in integer via a setter method in timedWindow. It calls startCountdown(), which basically starts the timer. 
