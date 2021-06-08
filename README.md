@@ -47,6 +47,8 @@ GUESS - triggered when the user hits enter on the guess field, and runs handleGu
 
 TIMER - triggered when our timer goes off (every second), tells timedWindow to update the timer Label
 
+
+
 When handleStartPractice() or handleStartTimed() are called, they both: 
 
 Close the startWindow
@@ -61,7 +63,11 @@ Reset the local gameWindow variable to the respective type
 
 TimedWindow has one more step, where it sets timedWindow.seconds to a passed in integer via a setter method in timedWindow. It calls startCountdown(), which basically starts the timer. 
 
+
+
 When handleHomeScreen() is called, the program will close any previously open windows and run startScreen(), which is essentially a homescreen builder. 
+
+
 
 When handleGuess() is called, the users guess is passed through both the game class and the round class, and a score for that round is returned. If the current gameWindow is a TimedWindow, GameController first checks to see if the game has already played out all of its rounds. If so, it calls finish(), and then scoreScreen().
 If the rounds have not all been played out, the game will advance to the next round via game.nextRound(). The timer is restarted aswell.
