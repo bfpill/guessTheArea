@@ -7,7 +7,7 @@ School - U32 Highschool, Vermont
 
 
 OBJECT ORIENTATION STRUCTURE 
-The project is made up of 11 classes, 6 being GUI user side classes, 3 handle the logic of the game, and the last 2 and link everything together. 
+The project is made up of 11 classes, 6 being GUI user side classes, 3 handle the logic of the game, and the last 2 link everything together. 
 
 GUI SIDE EXTENSION DIAGRAM
                                   
